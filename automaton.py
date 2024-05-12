@@ -15,8 +15,8 @@ class Day:
 
 class State:
     def __init__(self):
-        self.energy = 0
-        self.mood = 0
+        self.energy = random.randint(0, 10)
+        self.mood = random.randint(0, 10)
         self.food = 80
         self.sleep_deposit = 0
         self.name = "Sleeping"
